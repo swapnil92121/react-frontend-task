@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import { UserDataContainer } from '../components/UserDataContainer'
-import { Loading } from './Loading'
+import { Loading } from '../components/Loading'
 
 export const UserData = () => {
 

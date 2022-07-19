@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { singleuserdata } from "../reducer/user"
 import { useParams } from 'react-router-dom'
 import { SingleUserDetail } from "../components/SingleUserDetail"
-import { Loading } from "./Loading"
+import { Loading } from "../components/Loading"
 
 
 export const UserList = () => {
